@@ -1,17 +1,17 @@
 terraform {
 
   cloud {
-    organization = "organization-name"
+    organization = "tf-se-test"
 
     workspaces {
-      name = "learn-terraform-cloud"
+      name = "test-wspace"
     }
   }
 
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.28.0"
+      version = "~> 4.0"
     }
   }
 
