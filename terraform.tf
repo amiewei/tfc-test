@@ -1,19 +1,19 @@
-terraform {
+# terraform {
 
-  cloud {
-    organization = "tf-se-test"
+#   cloud {
+#     organization = "tf-se-test"
 
-    workspaces {
-      name = "test-wspace"
-    }
-  }
+#     workspaces {
+#       name = "test-wspace"
+#     }
+#   }
 
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.0"
-    }
-  }
+#   required_providers {
+#     aws = {
+#       source  = "hashicorp/aws"
+#       version = "~> 4.0"
+#     }
+#   }
 
-  required_version = ">= 0.14.0"
-}
+#   required_version = ">= 0.14.0"
+# }
